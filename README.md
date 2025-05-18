@@ -1,1 +1,67 @@
 # ehr-paid
+# Electronic Health Record (EHR) using Blockchain
+
+This project is a simple Electronic Health Record (EHR) management system built with Flask and Python, utilizing a basic blockchain structure to store patient records securely.
+
+## Features
+
+- Add new patient records to the blockchain.
+- View all records for a specific patient.
+- View the entire blockchain of records.
+- Simple web interface for interaction.
+
+## Project Structure
+
+```
+app.py
+templates/
+    blockchain.html
+    index.html
+    patient_records.html
+    record.html
+```
+
+- `app.py`: Main Flask application containing blockchain logic and routes.
+- `templates/`: HTML templates for the web interface.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Flask
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone <your-repo-url>
+    cd <repo-directory>
+    ```
+
+2. Install dependencies:
+    ```sh
+    pip install flask
+    ```
+
+### Running the Application
+
+```sh
+python app.py
+```
+
+The application will start on `http://127.0.0.1:5000/`.
+
+### Usage
+
+- **Add Record:** Fill out the form on the home page to add a new patient record.
+- **Get Record:** Enter a UID to view all records for a patient.
+- **View Blockchain:** View the entire blockchain of patient records.
+
+## Screenshots
+
+*(Add screenshots of your application here if desired)*
+
+## License
+
+This project is for educational purposes.
